@@ -99,16 +99,16 @@ struct WeatherView: View {
                     }
                     .padding(.horizontal, 10)
                 }
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
                 .padding(.bottom, 20)
-                .foregroundColor(Color(hue: 0.641, saturation: 0.956, brightness: 0.423))
+                .foregroundColor(Color(hue: 0.639, saturation: 0.646, brightness: 0.631))
                 .background(.white)
                 .cornerRadius(20, corners: [.topLeft, .topRight])
             }
         }
         .edgesIgnoringSafeArea(.bottom)
-        .background(Color(hue: 0.641, saturation: 0.956, brightness: 0.423))
+        .background(Color(hue: 0.639, saturation: 0.646, brightness: 0.631))
         .preferredColorScheme(.dark)
     }
 }
